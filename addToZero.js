@@ -2,6 +2,18 @@
 let array = [28, 43, -12, 30, 4, 0, 12]
 
 // Write your solution below:
+for(i= 0; i<array.length; i++){
+    for(j=1; j<array.length; j++){
+        if([i]+[j]===0){
+value = "True"
+        }
+    }
+}
+console.log(value)
+
+
+
+
 console.log(true+"12+(-12)=0")
 
 
