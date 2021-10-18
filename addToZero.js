@@ -31,4 +31,19 @@ let a = [0, 1, 2, 3, 4, 5]
 
 
 // Write your solution below:
+
+let value1= "false"
+for(i=0; i<value1.length; i++){
+    for (j=0; j<value1.length; j++){
+        if ( i !==j){
+            if (array[i]+array[j]===0){
+                value ="True"
+            }
+        }
+    }
+}
+console.log(value1)
+
+
+
 console.log(false+"there is no two numbers in the array add to zero")
